@@ -112,9 +112,9 @@
         [stukoshin@localhost isak_kurs]$ curl 10.0.2.15:60 | head -n 3
     
     Получим следующий вывод в терминал:  
-        <head>  
-        <title>NDVI</title>  
-        </head>  
+        \<head>  
+        \<title>NDVI</title>  
+        \</head>  
       
     # Вывод:  
     В ходе выполнения курсовой работы было создано приложение Flask, позволяющее загружать изображения спектров Landsat7 B3 и B4 и получать цветное изображение NDVI. 
