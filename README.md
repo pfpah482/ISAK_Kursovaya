@@ -108,6 +108,7 @@
         [stukoshin@localhost isak_kurs]$ sudo systemctl enable nginx  
     
     Убедимся, что сайт работает выполнив команду:
+    
         [stukoshin@localhost isak_kurs]$ curl 10.0.2.15:60 | head -n 3
     
     Получим следующий вывод в терминал:  
