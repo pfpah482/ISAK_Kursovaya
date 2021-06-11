@@ -47,7 +47,7 @@ def upload_files():
 	if red_image == None or nir_image == None:
 		abort(400)
 
-	ndvi = get_ndvi(nir_image, red_image)
+	ndvi = ndvi_caclucate_landsat7(nir_image, red_image)
 	greyscale = ((ndvi + 1.)/2.) * 256.
     	heatmap = cv2.cvtColor(cv2.applyColorMap(greyscale.astype('uint8'), cv2.COLORMAP_SUMMER), cv2.COLOR_BGR2RGB)
 	
