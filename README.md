@@ -11,13 +11,12 @@
 В работе использована CentOS 7.
 Работать будем в директории ~/isak_kurs/.  
   
-1. Установим необходимые пакеты:
-    Установим пакеты для разработки.
+1. Установим пакеты для разработки.
 
         [stukoshin@localhost isak_kurs]$ sudo yum groupinstall "Development Tools"
         [stukoshin@localhost isak_kurs]$ sudo yum install python-pip python-devel gcc nginx  
 
-2. Создадим приложение Flask_app 
+2. Создадим приложение Flask_app  
     Установим uwsgi и flask:  
 
         [stukoshin@localhost isak_kurs]$ pip install uwsgi flask  
