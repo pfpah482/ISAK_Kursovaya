@@ -85,7 +85,7 @@
     Откроем файл конфигурации:  
     
         [stukoshin@localhost isak_kurs]$ sudo vi /etc/nginx/nginx.conf  
-    Найдем блок server {} в теле http, выше него (*) создадим свой:  
+    Найдем блок server в теле http, выше него создадим свой:  
     
         server {  
           listen 80;  
@@ -109,7 +109,7 @@
     
     Убедимся, что сайт работает выполнив команду:
     
-        [stukoshin@localhost isak_kurs]$ curl 10.0.2.15:60 | head -n 3
+        [stukoshin@localhost isak_kurs]$ curl 10.0.2.15:80 | head -n 3
     
     Получим следующий вывод в терминал:  
         \<head>  
