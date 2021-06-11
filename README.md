@@ -70,8 +70,7 @@
         User=stukoshin  
         Group=nginx  
         WorkingDirectory=/home/stukoshin/isak_kurs  
-        Environment="PATH=/home/stukoshin/isak_kurs/isak_kursenv/bin"  
-        ExecStart=/home/stukoshin/isak_kurs/isak_kursenv/bin/uwsgi --ini isak_kurs.ini  
+        ExecStart=/home/stukoshin/isak_kurs/uwsgi --ini isak_kurs.ini  
         [Install]  
         WantedBy=multi-user.target 
     
